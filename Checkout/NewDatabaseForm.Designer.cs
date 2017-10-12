@@ -36,28 +36,32 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 66);
+            this.textBox1.Location = new System.Drawing.Point(16, 81);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(350, 297);
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(465, 365);
             this.textBox1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(16, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(350, 42);
+            this.label1.Size = new System.Drawing.Size(429, 54);
             this.label1.TabIndex = 1;
             this.label1.Text = "Does this table appear correctly with the\r\nIDs on the left and the names on the r" +
     "ight?";
             // 
             // nobutton
             // 
-            this.nobutton.Location = new System.Drawing.Point(12, 369);
+            this.nobutton.Location = new System.Drawing.Point(16, 454);
+            this.nobutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nobutton.Name = "nobutton";
-            this.nobutton.Size = new System.Drawing.Size(106, 34);
+            this.nobutton.Size = new System.Drawing.Size(141, 42);
             this.nobutton.TabIndex = 2;
             this.nobutton.Text = "NO";
             this.nobutton.UseVisualStyleBackColor = true;
@@ -65,9 +69,10 @@
             // 
             // yesbutton
             // 
-            this.yesbutton.Location = new System.Drawing.Point(256, 369);
+            this.yesbutton.Location = new System.Drawing.Point(341, 454);
+            this.yesbutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.yesbutton.Name = "yesbutton";
-            this.yesbutton.Size = new System.Drawing.Size(106, 34);
+            this.yesbutton.Size = new System.Drawing.Size(141, 42);
             this.yesbutton.TabIndex = 3;
             this.yesbutton.Text = "YES";
             this.yesbutton.UseVisualStyleBackColor = true;
@@ -75,15 +80,16 @@
             // 
             // NewDatabaseForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 415);
+            this.ClientSize = new System.Drawing.Size(499, 511);
             this.ControlBox = false;
             this.Controls.Add(this.yesbutton);
             this.Controls.Add(this.nobutton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "NewDatabaseForm";

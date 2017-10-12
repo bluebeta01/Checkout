@@ -36,8 +36,10 @@ namespace Csvtools
             }
             catch
             {
-                MessageBox.Show("Could not load/parse the CSV file!");
+                MessageBox.Show("Could not load database!");
             }
+            
+            
 
             return dict;
         }

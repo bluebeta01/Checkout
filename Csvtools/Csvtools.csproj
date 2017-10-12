@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Csvloader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferenceDatabase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
