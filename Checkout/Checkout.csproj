@@ -51,6 +51,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FullRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FullRecord.Designer.cs">
+      <DependentUpon>FullRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FullRecordSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FullRecordSelect.Designer.cs">
+      <DependentUpon>FullRecordSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Student.Designer.cs">
+      <DependentUpon>New Student.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewDatabaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,10 +78,27 @@
     <Compile Include="OnRun.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serial.cs" />
+    <Compile Include="SerialObj.cs" />
     <Compile Include="Session.cs" />
     <Compile Include="SignOutItems\SignOutObject.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FullRecord.resx">
+      <DependentUpon>FullRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FullRecordSelect.resx">
+      <DependentUpon>FullRecordSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Student.resx">
+      <DependentUpon>New Student.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewDatabaseForm.resx">
       <DependentUpon>NewDatabaseForm.cs</DependentUpon>
@@ -77,6 +112,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

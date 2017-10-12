@@ -13,6 +13,8 @@ namespace Checkout
 {
     public partial class Form1 : Form
     {
+
+
         public Form1()
         {
             InitializeComponent();
@@ -23,6 +25,7 @@ namespace Checkout
             inputbox.KeyDown += new KeyEventHandler(tb_KeyDown);
             OnRun.createDirectories();
             OnRun.tryLoadDatabase();
+            OnRun.loadPreviousCheckouts();
         }
 
         private void addNewDatabaseToolStripMenuItem_Click(object sender, EventArgs e)
@@ -53,11 +56,36 @@ namespace Checkout
                 outputbox.Text += "\t" + Csvtools.ReferenceDatabase.lookupName(inputbox.Text);
                 outputbox.Text += "\t\t" + now.ToString("HH:mm tt") + "\r\n";
 
-                inputbox.Text = "";
-
-
                 Session.signOutObjectList.Add(new SignOutItems.SignOutObject(inputbox.Text, Csvtools.ReferenceDatabase.lookupName(inputbox.Text), now));
+
+                Serial.serializeFile();
+                inputbox.Text = "";
             }
+        }
+
+        private void addSingleStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (File.Exists("C:\\sso\\database.csv"))
+            {
+                New_Student studentform = new New_Student();
+                studentform.Show();
+            }
+            else
+            {
+                MessageBox.Show("You have to add a database before you can add students indiviually.");
+            }
+        }
+
+        private void searchForStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Search search = new Search();
+            search.Show();
+        }
+
+        private void viewFullRecordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FullRecordSelect form = new FullRecordSelect();
+            form.Show();
         }
     }
 }

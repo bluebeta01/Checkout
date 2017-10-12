@@ -33,6 +33,10 @@
             this.addNewDatabaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inputbox = new System.Windows.Forms.TextBox();
             this.outputbox = new System.Windows.Forms.TextBox();
+            this.addSingleStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.recordsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.searchForStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewFullRecordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,7 +44,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.databaseToolStripMenuItem});
+            this.databaseToolStripMenuItem,
+            this.recordsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
@@ -51,7 +56,8 @@
             // databaseToolStripMenuItem
             // 
             this.databaseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addNewDatabaseToolStripMenuItem});
+            this.addNewDatabaseToolStripMenuItem,
+            this.addSingleStudentToolStripMenuItem});
             this.databaseToolStripMenuItem.Name = "databaseToolStripMenuItem";
             this.databaseToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.databaseToolStripMenuItem.Text = "Database";
@@ -82,6 +88,36 @@
             this.outputbox.Size = new System.Drawing.Size(492, 312);
             this.outputbox.TabIndex = 2;
             // 
+            // addSingleStudentToolStripMenuItem
+            // 
+            this.addSingleStudentToolStripMenuItem.Name = "addSingleStudentToolStripMenuItem";
+            this.addSingleStudentToolStripMenuItem.Size = new System.Drawing.Size(213, 26);
+            this.addSingleStudentToolStripMenuItem.Text = "Add Single Student";
+            this.addSingleStudentToolStripMenuItem.Click += new System.EventHandler(this.addSingleStudentToolStripMenuItem_Click);
+            // 
+            // recordsToolStripMenuItem
+            // 
+            this.recordsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.searchForStudentToolStripMenuItem,
+            this.viewFullRecordToolStripMenuItem});
+            this.recordsToolStripMenuItem.Name = "recordsToolStripMenuItem";
+            this.recordsToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
+            this.recordsToolStripMenuItem.Text = "Records";
+            // 
+            // searchForStudentToolStripMenuItem
+            // 
+            this.searchForStudentToolStripMenuItem.Name = "searchForStudentToolStripMenuItem";
+            this.searchForStudentToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
+            this.searchForStudentToolStripMenuItem.Text = "Search for Student";
+            this.searchForStudentToolStripMenuItem.Click += new System.EventHandler(this.searchForStudentToolStripMenuItem_Click);
+            // 
+            // viewFullRecordToolStripMenuItem
+            // 
+            this.viewFullRecordToolStripMenuItem.Name = "viewFullRecordToolStripMenuItem";
+            this.viewFullRecordToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
+            this.viewFullRecordToolStripMenuItem.Text = "View Full Record";
+            this.viewFullRecordToolStripMenuItem.Click += new System.EventHandler(this.viewFullRecordToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -91,7 +127,7 @@
             this.Controls.Add(this.inputbox);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -109,6 +145,10 @@
         private System.Windows.Forms.ToolStripMenuItem addNewDatabaseToolStripMenuItem;
         private System.Windows.Forms.TextBox inputbox;
         private System.Windows.Forms.TextBox outputbox;
+        private System.Windows.Forms.ToolStripMenuItem addSingleStudentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem recordsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem searchForStudentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewFullRecordToolStripMenuItem;
     }
 }
 

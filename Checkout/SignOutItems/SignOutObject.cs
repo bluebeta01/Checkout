@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Checkout.SignOutItems
 {
+    [Serializable]
     class SignOutObject
     {
         public string id, name;

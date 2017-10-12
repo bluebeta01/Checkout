@@ -22,5 +22,14 @@ namespace Checkout
                 Csvtools.ReferenceDatabase.loadDefaultDatabase();
             }
         }
+
+        public static void loadPreviousCheckouts()
+        {
+            if(File.Exists("C:\\sso\\dates\\" + DateTime.Now.ToString("MMMM dd, yyyy")))
+            {
+                SerialObj obj = Serial.deserializeFile("C:\\sso\\dates\\" + DateTime.Now.ToString("MMMM dd, yyyy"));
+                Session.signOutObjectList = obj.list;
+            }
+        }
     }
 }
