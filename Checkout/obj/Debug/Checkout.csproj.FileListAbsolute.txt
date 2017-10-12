@@ -1,0 +1,13 @@
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\bin\Debug\Checkout.exe.config
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\bin\Debug\Checkout.exe
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\bin\Debug\Checkout.pdb
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\bin\Debug\Csvtools.dll
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\bin\Debug\Csvtools.pdb
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\obj\Debug\Checkout.csprojResolveAssemblyReference.cache
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\obj\Debug\Checkout.Form1.resources
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\obj\Debug\Checkout.NewDatabaseForm.resources
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\obj\Debug\Checkout.Properties.Resources.resources
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\obj\Debug\Checkout.csproj.GenerateResource.Cache
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\obj\Debug\Checkout.csproj.CoreCompileInputs.cache
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\obj\Debug\Checkout.exe
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Checkout\obj\Debug\Checkout.pdb

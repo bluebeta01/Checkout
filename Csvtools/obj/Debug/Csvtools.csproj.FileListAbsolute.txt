@@ -1,0 +1,6 @@
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Csvtools\bin\Debug\Csvtools.dll
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Csvtools\bin\Debug\Csvtools.pdb
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Csvtools\obj\Debug\Csvtools.csprojResolveAssemblyReference.cache
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Csvtools\obj\Debug\Csvtools.csproj.CoreCompileInputs.cache
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Csvtools\obj\Debug\Csvtools.dll
+C:\Users\Logan\Desktop\CheckoutTemp\Checkout\Csvtools\obj\Debug\Csvtools.pdb
