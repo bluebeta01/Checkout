@@ -36,7 +36,7 @@ namespace Checkout
                 List<SignOutItems.SignOutObject> obj = Serial.deserializeFile("C:\\sso\\dates\\" + filenamebox.Text).list;
                 for(int i = 0; i < obj.ToArray().Length; i++)
                 {
-                    returnvalue += obj[i].id + "     " + obj[i].name + "     " + obj[i].dateTime.ToString("hh:mm") + "\r\n";
+                    returnvalue += obj[i].id + "\t" + obj[i].name + "\t\t" + obj[i].dateTime.ToString("hh:mm tt") + "\r\n";
                 }
                 FullRecord form = new FullRecord();
                 form.Show();
@@ -51,6 +51,7 @@ namespace Checkout
             {
                 filenamebox.Items.Add(Path.GetFileName(i));
             }
+            filenamebox.Text = DateTime.Now.ToString("MMMM dd, yyyy");
         }
     }
 }

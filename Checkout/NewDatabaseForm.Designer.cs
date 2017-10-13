@@ -37,7 +37,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(16, 81);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -59,7 +59,7 @@
             // nobutton
             // 
             this.nobutton.Location = new System.Drawing.Point(16, 454);
-            this.nobutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nobutton.Margin = new System.Windows.Forms.Padding(4);
             this.nobutton.Name = "nobutton";
             this.nobutton.Size = new System.Drawing.Size(141, 42);
             this.nobutton.TabIndex = 2;
@@ -70,7 +70,7 @@
             // yesbutton
             // 
             this.yesbutton.Location = new System.Drawing.Point(341, 454);
-            this.yesbutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.yesbutton.Margin = new System.Windows.Forms.Padding(4);
             this.yesbutton.Name = "yesbutton";
             this.yesbutton.Size = new System.Drawing.Size(141, 42);
             this.yesbutton.TabIndex = 3;
@@ -82,14 +82,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(499, 511);
+            this.ClientSize = new System.Drawing.Size(495, 507);
             this.ControlBox = false;
             this.Controls.Add(this.yesbutton);
             this.Controls.Add(this.nobutton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "NewDatabaseForm";

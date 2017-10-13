@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Drawing.Printing;
 
 namespace Checkout
 {
@@ -56,6 +57,8 @@ namespace Checkout
                 outputbox.Text += "\t" + Csvtools.ReferenceDatabase.lookupName(inputbox.Text);
                 outputbox.Text += "\t\t" + now.ToString("HH:mm tt") + "\r\n";
 
+                lastid.Text = inputbox.Text + "\t\t" + Csvtools.ReferenceDatabase.lookupName(inputbox.Text);
+
                 Session.signOutObjectList.Add(new SignOutItems.SignOutObject(inputbox.Text, Csvtools.ReferenceDatabase.lookupName(inputbox.Text), now));
 
                 Serial.serializeFile();
@@ -86,6 +89,22 @@ namespace Checkout
         {
             FullRecordSelect form = new FullRecordSelect();
             form.Show();
+        }
+
+        private void printReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PrintForm form = new PrintForm();
+            form.Show();
+        }
+
+        private void inputbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This program was created and maintained by Logan Klumpp.\nThis program is free and opensource.\nThe full C# source code can be found on github.\nklumpplogan@gmail.com\nGitHub Username: Bluebeta01");
         }
     }
 }

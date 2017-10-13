@@ -108,7 +108,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lable);
             this.Controls.Add(this.filenamebox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Search";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Search";

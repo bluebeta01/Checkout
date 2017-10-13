@@ -98,7 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(369, 250);
+            this.ClientSize = new System.Drawing.Size(365, 246);
             this.ControlBox = false;
             this.Controls.Add(this.accept);
             this.Controls.Add(this.cancel);
@@ -106,7 +106,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.name);
             this.Controls.Add(this.id);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "New_Student";

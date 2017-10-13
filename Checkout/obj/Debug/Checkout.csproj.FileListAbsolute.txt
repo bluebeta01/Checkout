@@ -27,3 +27,4 @@ C:\Users\Logan\Desktop\Checkout\Checkout\obj\Debug\Checkout.New_Student.resource
 C:\Users\Logan\Desktop\Checkout\Checkout\obj\Debug\Checkout.Search.resources
 C:\Users\Logan\Desktop\Checkout\Checkout\obj\Debug\Checkout.FullRecord.resources
 C:\Users\Logan\Desktop\Checkout\Checkout\obj\Debug\Checkout.FullRecordSelect.resources
+C:\Users\Logan\Desktop\Checkout\Checkout\obj\Debug\Checkout.PrintForm.resources

@@ -29,6 +29,8 @@ namespace Checkout
             {
                 filenamebox.Items.Add(Path.GetFileName(i));
             }
+
+            filenamebox.Text = DateTime.Now.ToString("MMMM dd, yyyy");
         }
 
         private void accept_Click(object sender, EventArgs e)
@@ -51,7 +53,7 @@ namespace Checkout
                 }
                 else
                 {
-                    MessageBox.Show("That student ID was scanned at the following times:\n\n" + times + "\n\nNOTE: If the student entered their name instead of scanning their ID, they may not show up in the search. If you allow students to enter their name, this result may be erroneous and you will need to view the Full Record.");
+                    MessageBox.Show("That student ID was scanned at the following time(s):\n\n" + times + "\n\nNOTE: If the student entered their name instead of scanning their ID, they may not show up in the search. If you allow students to enter their name, this result may be erroneous and you will need to view the Full Record.");
                 }
             }
             else
