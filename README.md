@@ -1,3 +1,3 @@
 # Checkout
 
-<a href="facebook.com">link</a>
+<a href="http://www.facebook.com">link</a>
